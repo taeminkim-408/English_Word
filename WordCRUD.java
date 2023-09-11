@@ -82,6 +82,22 @@ public class WordCRUD implements ICRUD{
 		System.out.println("--------------------------------------\n");
 		return idlist;
 	}
+	
+	public void listall(int level) {
+		int j=0;
+		ArrayList<Integer> idlist = new ArrayList<>();
+		System.out.println("\n--------------------------------------");
+		for(int i=0;i<list.size();i++) {
+			int ilevel = list.get(i).getLevel();
+			if(ilevel != level ) continue;
+			System.out.print(j+1+" ");
+			System.out.println(list.get(i).toString());
+			j++;
+		}
+		System.out.println("--------------------------------------\n");
+		
+	}
+	
 
 
 	public void updateItem() {
@@ -162,6 +178,16 @@ public class WordCRUD implements ICRUD{
 		e.printStackTrace();
 		
 	}
+	}
+
+
+
+	public void SearchLevel() {
+		System.out.print("=> 원하는 레밸은? (1~3) ");
+		int level = s.nextInt();
+		listall(level);
+		
+		
 	}
 
 }
