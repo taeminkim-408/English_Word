@@ -190,4 +190,13 @@ public class WordCRUD implements ICRUD{
 		
 	}
 
+
+
+	public void SearchWord() {
+		System.out.print("=> 원하는 단어? ");
+		String keyword = s.next();
+		listall(keyword);
+		
+	}
+
 }
