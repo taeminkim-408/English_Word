@@ -1,5 +1,8 @@
 # English_Word
 
+
+![스크린샷](Screenshots/1번기능(저장한 파일 불러오기).png)
+
 src = (./Screenshots/1번기능(저장한 파일 불러오기).png)
 1번기능 모든 단어 보기
 
