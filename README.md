@@ -1,33 +1,49 @@
 # English_Word
 
-
+1번 기능(저장 불러오기)
 ![스크린샷](ScreenShots/1번기능(불러오기).png)
 
-src = (./Screenshots/1번기능(저장한 파일 불러오기).png)
-1번기능 모든 단어 보기
 
-<img width="358" alt="image" src="https://github.com/taeminkim-408/English_Word/assets/82189651/5c575730-aa94-4650-8e21-3d8cc2a11641">
 
-4번기능 단어 추가 
-
-![image](https://github.com/taeminkim-408/English_Word/assets/82189651/5eec467d-9d81-4fa0-a167-995e644b8da6)
+2번 기능(수준별 단어 보여주기)
+![스크린샷](ScreenShots/2번기능(수준별).png)
 
 
 
-나가기 기능
+3번 기능(단어검색기능)
+![스크린샷](ScreenShots/3번기능(단어검색).png)
 
-<img width="258" alt="image" src="https://github.com/taeminkim-408/English_Word/assets/82189651/49e890d4-bd46-461c-a486-bf304fc984c4">
 
-# English_Word
 
-1번기능 모든 단어 보기
+4번 기능(단어추가기능)
+![스크린샷](ScreenShots/4번기능(단어추가).png)
 
-<img width="358" height="358" alt="image" src=""https://github.com/taeminkim-408/English_Word/assets/82189651/5c575730-aa94-4650-8e21-3d8cc2a11641"">
 
-4번기능 단어 추가 
 
-<img width="358" height="358" alt="image" src="[https://github.com/taeminkim-408/English_Word/assets/82189651/49e890d4-bd46-461c-a486-bf304fc984c4](https://github.com/taeminkim-408/English_Word/assets/82189651/5eec467d-9d81-4fa0-a167-995e644b8da6)https://github.com/taeminkim-408/English_Word/assets/82189651/5eec467d-9d81-4fa0-a167-995e644b8da6">
+5번 기능(단어변경 뜻 변경하기)
+![스크린샷](ScreenShots/5번기능(1번).png)
 
-나가기 기능
 
-<img width="358" height="358" alt="image" src="https://github.com/taeminkim-408/English_Word/assets/82189651/49e890d4-bd46-461c-a486-bf304fc984c4">
+
+5번 기능(단어변경 단어 변경하기)
+![스크린샷](ScreenShots/5번기능(2번).png)
+
+
+
+5번 기능(단어변경 모든 단어 변경하기)
+![스크린샷](ScreenShots/5번기능(3번).png)
+
+
+
+6번 기능(단어삭제하기)
+![스크린샷](ScreenShots/6번기능.png)
+
+
+
+7번 기능(단어저장하기)
+![스크린샷](ScreenShots/7번기능(저장파일).png)
+
+
+
+TXT파일 
+![스크린샷](ScreenShots/7번기능.png)
