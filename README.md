@@ -1,6 +1,6 @@
 # English_Word
 
-(./Screenshots/1번기능(저장한 파일 불러오기).png)
+src = (./Screenshots/1번기능(저장한 파일 불러오기).png)
 1번기능 모든 단어 보기
 
 <img width="358" alt="image" src="https://github.com/taeminkim-408/English_Word/assets/82189651/5c575730-aa94-4650-8e21-3d8cc2a11641">
