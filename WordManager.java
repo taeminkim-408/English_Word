@@ -3,18 +3,28 @@ package com.taemin.word;
 import java.util.Scanner;
 
 public class WordManager {
-		Scanner s = new Scanner(System.in);
-		WordCRUD wordCRUD;
-		WordManager(){
-			wordCRUD = new WordCRUD(s);
-			
-		}
+	Scanner s = new Scanner(System.in);
+	WordCRUD wordCRUD;
+	WordManager(){
+		wordCRUD = new WordCRUD(s);
+		
+	}
 	public void start() {
+		wordCRUD.loadFile();
 		while(true) {
 			int menu = SelectMenu();
-			if(menu==0) break;
+			if(menu==0) {
+				System.out.print("프로그램 종료! 다음에 만나요~");
+				break;
+			}
 			if(menu==1) {
 				wordCRUD.listall();
+			}
+			else if(menu==2) {
+				wordCRUD.SearchLevel();
+			}
+			else if(menu==3) {
+				wordCRUD.SearchWord();
 			}
 			else if(menu==4) {
 				wordCRUD.addWord();
@@ -26,7 +36,12 @@ public class WordManager {
 			else if(menu==6) {
 				wordCRUD.deleteItem();
 			}
-			
+			else if(menu==7) {
+				wordCRUD.saveFile();
+			}
+			else {
+				System.out.println("에러 다시 입력해주세요. ");
+			}
 			
 		}
 		
