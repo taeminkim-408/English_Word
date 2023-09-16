@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class WordFileLoader {
+public class Load {
     public void loadFile(String filePath, ArrayList<Word> list) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(filePath));
