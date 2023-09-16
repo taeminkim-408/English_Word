@@ -13,16 +13,16 @@
 		ArrayList<Word> list;
 		Scanner s;
 
-		private WordUpdate Update;
-	    private WordFileLoader Load;
-	    private WordFileSaver Save;
+		private Update Update;
+	    private Load Load;
+	    private Save Save;
 		final String fname = "Dictionary.txt";
 		WordCRUD(Scanner s){
 			list = new ArrayList<>();
 			this.s =s; 
-			Update = new WordUpdate(s);
-			Load = new WordFileLoader();
-			Save = new WordFileSaver();
+			Update = new Update(s);
+			Load = new Load();
+			Save = new Save();
 		} 
 		
 		@Override
@@ -131,7 +131,12 @@
 				System.out.println("취소되었습니다. ");
 			}
 			
+			
+			
 		}
+	
+	
+	
 		public void saveFile() {
 	        Save.saveFile(fname, list);
 	    }
