@@ -3,10 +3,10 @@ package com.taemin.word;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class WordUpdate {
+public class Update {
     private Scanner s;
 
-    public WordUpdate(Scanner s) {
+    public Update(Scanner s) {
         this.s = s;
     }
 
