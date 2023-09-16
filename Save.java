@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-public class WordFileSaver {
+public class Save {
     public void saveFile(String filePath, ArrayList<Word> list) {
         try {
             PrintWriter pr = new PrintWriter(new FileWriter(filePath));
