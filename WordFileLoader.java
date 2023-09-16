@@ -1,15 +1,14 @@
 package com.taemin.word;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class WordFileHandler {
-    private final String fname = "Dictionary.txt";
-
-    public void loadFile(ArrayList<Word> list) {
+public class WordFileLoader {
+    public void loadFile(String filePath, ArrayList<Word> list) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader(fname));
+            BufferedReader br = new BufferedReader(new FileReader(filePath));
             String line;
             int count = 0;
             while (true) {
@@ -24,19 +23,6 @@ public class WordFileHandler {
             }
             br.close();
             System.out.println("==> " + count + "개 로딩완료!!!");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void saveFile(ArrayList<Word> list) {
-        try {
-            PrintWriter pr = new PrintWriter(new FileWriter(fname));
-            for (Word one : list) {
-                pr.write(one.toFileString() + "\n");
-            }
-            pr.close();
-            System.out.println("==> 데이터 저장완료!!!!!");
         } catch (IOException e) {
             e.printStackTrace();
         }
